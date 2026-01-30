@@ -331,7 +331,7 @@ builder.declare({
     'Find a task by index path and redirect to the artifact on the most recent',
     'run with the given `name`.',
     '',
-    'Note that multiple calls to this endpoint may return artifacts from differen tasks',
+    'Note that multiple calls to this endpoint may return artifacts from different tasks',
     'if a new task is inserted into the index between calls. Avoid using this method as',
     'a stable link to multiple, connected files if the index path does not contain a',
     'unique identifier.  For example, the following two links may return unrelated files:',
